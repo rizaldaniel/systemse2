@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <title>Caito Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;700&display=swap" rel="stylesheet"> <!--font-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"> <!--icons-->
+
+<script src="https://kit.fontawesome.com/7ddb825e31.js" crossorigin="anonymous"></script>
+
+</head>
+<style>
+    button{
+        margin: auto;
+        padding: 10px 20px;
+    }
+    button:hover{
+        border: 1px solid #0e73d8;
+    background: #b66ecc;
+    transition: 1s;
+} /*end*/
+    
+</style>
+<body>
+    
+        
+  
+    <!--NAVBAR YUNG MGA NASA TAAS-->
+    <section class="sub-header">
+    <nav class="navbar navbar-expand-md" style="background-color: #b66ecc;"> <!--background sa navbars-->
+        <div class="container-xxl">
+            <a href="intro" class="navbar-brand">
+                <img src="images/ccc.png"></a>
+                <span class="fw-bold text-dark">
+                    Information & Recruitment Website
+                </span>
+            
+            
+        <!--toggle button for mobile nav-->
+       <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" 
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button> -->
+             
+        <!--navbar links -->
+        
+      
+                <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/activities.html">ACTIVITIES</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="/login.html">LOGIN</a></li>
+                <li><a href="/recruitment">JOIN US</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <a href="https://www.facebook.com/CAITO2006">
+                    <i class="fa-brands fa-facebook"></i></a>            
+            </ul> 
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        </section>
+        <!-- 
+        <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#activities">Activities</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#recruitment">Join Us!</a>
+                </li>
+        
+            </ul> -->
+            
+        </div>
+       </div>
+    </div>
+    </nav>
+    
+
+
+    <section class="sub-come">
+        <h1>
+            CONTACT US
+        </h1>
+       
+    </section>
+ 
+    <!--CONTACT US-->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30942.877434320915!2d121.13722401262646!3d14.202993369185586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd622b2e539df1%3A0x9102ac773e8a0b99!2sCity%20College%20of%20Calamba!5e0!3m2!1sen!2sph!4v1702557338209!5m2!1sen!2sph" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                <span> 
+                    <h5>6569+Q3R, General Lim St,</h5>
+                    <p>Calamba, 4027 Laguna</p>
+                </span>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <span>
+                <h5>+063 94274273691</h5>
+                <p>Monday to Friday</p>
+            </span>
+        </div>
+        <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+                <h5>info@ccc.edu.ph</h5>
+                <p>Email us for your query</p>
+            </span>
+        </div>     
+    </div>
+    <!--yung mga name yun yung pangalan nila na nakabase sa php-->
+    <div class="contact-col">
+        <form class="">
+            <input type="text" id="name" placeholder="Enter your name">
+            <input type="text" id="email" placeholder="Enter your email">
+            <input type="text" id="subject" placeholder="Enter your subject">
+            <textarea rows="8" id="message" placeholder="How can we help you?" required></textarea>
+            <button onclick="sendMessage();">Send Message</button>
+        </form>
+    </div>
+</div>
+    </section>
+ 
+    <!------EMAIL JS-->
+    <script>
+        function sendMessage(){
+            (function(){
+                emailjs.init("aaP-mWWk76LD5N3iS"); // Account Public Key
+            })();
+
+            var serviceID = "service_3bv7nwe"; // Email Service ID sa emailjs
+            var templateID = "template_8a7mnsb"; // Email Template ID
+
+            var params = {
+                sendername: document.querySelector("#name").value,
+                senderemail: document.querySelector("#email").value,
+                subject: document.querySelector("#subject").value,
+                message: document.querySelector("#message").value
+            };
+            
+            emailjs.send(serviceID, templateID, params)
+            .then( res => {
+                alert('Thank you!, ' + params['sendername'] + 'Your message has been sent.');
+            })
+            .catch();
+        }
+    </script>
+
+   <!--footer-->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum consequatur deleniti amet hic eius ducimus, 
+           <br> alias culpa ipsum quaerat abdoloribus sunt, debitis sint eveniet animi neque totam aliquid asperiores.</p>
+           <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            
+           </div>
+    </section>
+
+    
+
+    <!------------Javascript------>
+    <!------------paramaclick yung mga icons na cross and menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
